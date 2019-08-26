@@ -1,0 +1,23 @@
+{
+  "name": "discui-bootstrap-admin-template",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/danilovcpp/discui-bootstrap-admin-template.git",
+  "author": "danilovcpp <danilov.cpp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discui": "^0.0.3"
+  },
+  "scripts": {
+    "build": "",
+    "build-clean": "rimraf dist",
+    "build-copy": "",
+    "build-vendors": "node build/vendors.js",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/style.scss src/css/style.css"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "rimraf": "^3.0.0"
+  }
+}
